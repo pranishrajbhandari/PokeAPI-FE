@@ -1,0 +1,59 @@
+/* PokemonTypeMatchup.module.css */
+
+.pokemonTypeMatchup {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: auto;
+  }
+  
+  .comparisonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .comparisonItem {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 45%;
+    min-width: 200px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .comparisonItem:hover {
+    transform: translateY(-5px);
+  }
+  
+  .advantage {
+    background: linear-gradient(135deg, #4caf50, #66bb6a);
+    color: white;
+  }
+  
+  .disadvantage {
+    background: linear-gradient(135deg, #f44336, #e57373);
+    color: white;
+  }
+  
+  .comparisonItem ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+  }
+  
+  .comparisonItem li {
+    font-size: 14px;
+  }
+  
+  .conclusion {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+  }
+  

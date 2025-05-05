@@ -1,0 +1,134 @@
+.pill-badge {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid white;
+  background-color: #6c757d;
+  border-radius: 10rem;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.iconWrapper {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  display: flex;
+  gap: 4px;
+}
+
+.typeIcon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: white;
+}
+
+.heartIconWrapper {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  display: flex;
+  gap: 4px;
+}
+
+.heartIcon {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.typePillsContainer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.typePill {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 15px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.fire {
+  background-color: #fba13d; 
+}
+
+.water {
+  background-color: #3c8fc0; 
+}
+
+.grass {
+  background-color: #7cc855; 
+}
+
+.electric {
+  background-color: #f9e23f; 
+}
+
+.ice {
+  background-color: #9ee7f0; 
+}
+
+.fighting {
+  background-color: #e58a47; 
+}
+
+.poison {
+  background-color: #9c6dbf; 
+}
+
+.normal {
+  background-color: #a8a77a;
+}
+
+.ground {
+  background-color: #e2b65f; 
+}
+
+.flying {
+  background-color: #64a8fc; 
+}
+
+.psychic {
+  background-color: #f72d99; 
+}
+
+.bug {
+  background-color: #a8c22f; 
+}
+
+.rock {
+  background-color: #c2b384; 
+}
+
+.ghost {
+  background-color: #5c3d7d; 
+}
+
+.dragon {
+  background-color: #0e5db9; 
+}
+
+.dark {
+  background-color: #4c3843; 
+}
+
+.steel {
+  background-color: #5a7b8d;
+}
+
+.fairy {
+  background-color: #f4a7df;
+}
