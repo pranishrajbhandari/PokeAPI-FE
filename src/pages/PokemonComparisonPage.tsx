@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import PokemonComparisonCard, {
   IPokemonComparison,
-} from "../components/pages/comparisonPage/PokemonComparisonCard";
-import SelectPokemonModal from "../components/pages/comparisonPage/SelectPokemonModal";
-import PokemonComparisonStatsRadar from "../components/pages/comparisonPage/PokemonComparisonStatsRadar";
-import PokemonTypeMatchup from "../components/pages/comparisonPage/PokemonTypeMatchups";
-import PokemonMovesetMatchup from "../components/pages/comparisonPage/PokemonMoveSetMatchups";
-import PokemonMatchup from "../components/pages/comparisonPage/PokemonMatchup";
+} from "../components/pages/pokemonComparisonPage/PokemonComparisonCard";
+import SelectPokemonModal from "../components/pages/pokemonComparisonPage/SelectPokemonModal";
+import PokemonComparisonStatsRadar from "../components/pages/pokemonComparisonPage/PokemonComparisonStatsRadar";
+import PokemonTypeMatchup from "../components/pages/pokemonComparisonPage/PokemonTypeMatchups";
+import PokemonMovesetMatchup from "../components/pages/pokemonComparisonPage/PokemonMoveSetMatchups";
+import PokemonMatchup from "../components/pages/pokemonComparisonPage/PokemonMatchup";
 import { useLocation } from "react-router-dom";
 
 const PokemonComparisonPage = () => {

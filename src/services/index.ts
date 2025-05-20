@@ -141,3 +141,16 @@ export const getFavoritePokemons = async (): Promise<Array<any>> => {
   });
   return res.data;
 };
+
+export const getIsPokemonAlreadyFavorited = async (
+  pokemonId: number
+): Promise<any> => {
+  const res = await axiosBEApiClient.get("/api/favorites/isFavorite", {
+    params: {
+      addedBy: import.meta.env.VITE_BACKEND_USER,
+      pokemonId,
+    },
+  });
+
+  return res.data.isFavorited;
+};

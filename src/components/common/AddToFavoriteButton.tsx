@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import {
   addFavoritePokemon,
   getFavoritePokemons,
+  getIsPokemonAlreadyFavorited,
   removeFavoritePokemon,
 } from "../../services";
 import { IPokemonCardData, IPokemonDetailedData } from "../../services/index.d";
@@ -22,10 +23,10 @@ const AddToFavoriteButton = ({
 }: IAddToFavoriteButtonProps) => {
   const [isFavorite, setIsFavorite] = useState(false);
 
-
   const checkIfAlreadyFavorited = async (): Promise<boolean> => {
-    const data = await getFavoritePokemons();
-    return Array.isArray(data) && data.some((entry) => entry.id == id);
+    const data = await getIsPokemonAlreadyFavorited(id);
+    console.log(data);
+    return data;
   };
 
   const handleAddOrRemoveFromFavorites = async () => {

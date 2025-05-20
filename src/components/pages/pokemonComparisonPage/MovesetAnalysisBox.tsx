@@ -27,11 +27,11 @@ const MoveSetAnalysisBox: React.FC<IMoveSetAnalysisBoxProps> = ({
     return "Neutral";
   };
 
-  const getTypeCoverage = (moveType: PokemonType) => {
-    console.log(typeMatchups[moveType]);
-  };
+  //const getTypeCoverage = (moveType: PokemonType) => {
+    //console.log(typeMatchups[moveType]);
+  //};
 
-  getTypeCoverage(pokemonMoves[0].type as PokemonType);
+  //getTypeCoverage(pokemonMoves[0].type as PokemonType);
   
   return (
     <div className="d-flex flex-column justify-content-center align-items-center">

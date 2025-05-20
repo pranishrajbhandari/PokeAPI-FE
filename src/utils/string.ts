@@ -7,3 +7,4 @@ export const extractIdFromPokemonSpeciesUrl = (url: string): string => {
 
   return id;
 };
+
